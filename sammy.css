@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    margin-left: 2%;
+    font-size: 22px;
+}
+/*The body settings*/
+body{
+    background: azure;
+    
+}
+
+/*Container settings i.e the container with the tables and all its details */
+.container{
+    background-color: antiquewhite;
+    color: black;
+    height: 100vh;
+    width: 80%;    
+    position: relative;
+    border: solid 2px rgb(49, 43, 67);
+  padding: 1%;
+    border-radius: 10px;
+    display: block;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    overflow-x: scroll;
+    
+    word-spacing: 2px;
+    
+}
+/*
+ .next{
+    padding: 5px;
+    height: 40px;
+    position: relative;
+    border: none;
+    opacity: 70%;
+    border-left: 7px solid rgb(36, 80, 223);
+    border-right: 7px solid rgb(36, 80, 223);
+    background: transparent;
+    border-radius: 40%;
+    font-size: 24px;
+    color: black;
+    margin-left: 43%;
+    margin-right: 43%;
+}
+ .next:hover{
+    border-left: none;
+}
+
+*/
+/*Icons located in the contacts class settings*/
+.contacts i{
+    border-right: solid 1px black;
+    margin-top: 7px;
+    margin-right: 5px;
+    
+}
+
+/*All divisions to be in block format*/
+div{
+    display: block;
+}
+
+/*Heading 1 settings*/
+ h1{
+  margin-left: 25%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*Horizontal line to move slightly away from the left margin*/
+hr{
+    margin-left: 23%;
+}
+
+
+/*Horizontal line class settings*/
+.line{
+    border-radius: 40%;
+    background: red;
+    margin-bottom: 30px;
+    margin-top: 5px;
+    width: 100%;
+    display: flex;
+    margin-left: 30%;
+    max-width: 350px;
+    justify-content: center;
+    align-items: center;
+    height: 10px;
+}
+
+/*I wanted my images to be of better visibility..therefore enhancing the pixels*/
+img{
+   width: 200px; 
+    height: 250px;
+}
+
+
+/*Headings 2 settings*/
+h2{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+/*Settings for the body of the tables division*/
+.tables{
+    background: antiquewhite;
+  width: 100%;
+  display: inline-block;
+    position: relative;
+    font-weight: 300;
+    color: rgb(39, 43, 56);
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 30px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+/*Table row to be relative*/
+tr{
+    background: antiquewhite;
+    position: relative;
+}
+
+/*The table tag settings*/
+table{
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    background: antiquewhite;
+    width: 100%;
+   
+    display: inline-block;
+
+}
+
+/*In the tables class the images behaviour settings when the cursor hovers over them*/
+.tables img:hover{
+    border-radius: 0px;
+}
+
+/*Changing the table heading fonts*/
+th{
+    background: antiquewhite;
+    font-size: 30px;
+}
+
+
+/*Changing the border radius of the images*/
+img{
+    border-radius: 30%;
+}
+
+/*Refers to settings for the caption at the bottom of images*/
+figcaption{
+    font-size: larger;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: brown ;
+}
+
+/*Data found in table rows settings*/
+    td{
+        justify-content: center;
+        align-items: center;
+        display: block;
+        font-size: 22px;
+        border: solid 1px rgb(18, 113, 129);
+        border-radius: 10px;
+        padding: 30px;
+    }
+
+    /*Table row settings*/
+    tr{
+        padding: 30px;
+        box-shadow: 0 0 2px 2px;
+        margin-bottom: 10px;
+    }
+
+    /*Settings for the footer at the bottom of the page*/
+    
+
+  
+ 
+    /*settings for when the  heading 3 is being hovered over*/
+    h3 a:hover{
+        text-decoration: underline;
+    }
+    a{
+        text-decoration-color: none;
+    }
+
+    li a{
+        color: rgb(19, 12, 12);
+        text-decoration: none;
+    }
+
+    figure{
+        padding-left: 45px;
+        width: 350px;
+        height: 350px;
+    }
+    ul i{
+        font-size: 30px;
+    }
+    a{
+        text-decoration: none;
+    }
+    form{
+        box-shadow: 10px 5px 0px;
+        border-radius: 10px;
+        margin-right: 20px;
+        background-image: url(dummy.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        max-width: 600px;
+        float: center;
+        height: 250px;
+        color: #fff;
+        padding:30px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 30px;
+        padding-top: 40px;
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    form input{
+        font-size: large;
+        padding: 5px;
+        opacity: 70%;
+        border-radius: 7px;
+        margin-top: 10px;
+    }
+    button{
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 300px;
+        font-size: 20px;
+    }
+    button:hover{
+        letter-spacing: 2px;
+        text-decoration: underline;
+        transition: all 0.3s ease-in-out;
+    }
+    .whoarewe{
+        border-radius: 10%;
+        padding: 15px;
+        background: blanchedalmond;
+        font-size: 22px;
+    }

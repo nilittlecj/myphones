@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(202, 228, 228);
+    padding: 0;
+    font-size: 18px;
+}
+.thesidebar{
+    visibility: hidden;
+    border-radius: 20px 0px 0px 20px;
+    width: 65%;
+    position: fixed;
+    height: 7%;
+    z-index: 1;
+    background: rgb(33, 34, 35);
+    top: 0%;
+   opacity: 90%;
+    right: 0%;
+    padding-left: 3%;
+    font-size: 22px;
+}
+#side{
+    top: 0;
+    width: 100px;
+    right: 0;
+}
+.close{
+    margin-top: 0;
+    width: 50px;
+    top: 0;
+    margin-bottom: 20%;
+    right: 0;
+}
+
+nav a{
+
+    padding: 5px;
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    text-decoration: underline;
+    color: red;
+}
+#navigationbar{
+    display: block;
+}
+ul{
+    padding-top: 5px;    
+    height: 40px;
+    margin-top: 7%;
+    width: 90%;
+    border: solid 0.5px black;
+    text-align: center;
+    justify-content: center;
+    border-radius: 4px;
+
+    list-style-type: none;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-wrap-style: uppercase;
+}
+img.boss{
+    margin-top: 30px;
+    margin-left: 25%;
+    width: 300px;
+    height: 350px;
+    border-radius: 50%;
+    border: solid rgb(25, 121, 133) 3px;
+}
+img.boss:active{
+    border-radius: 0px;
+    
+}
+img.boss:hover{
+   
+    border-radius: 0px;
+    
+}
+.ownerhead{
+    cursor: default;
+    font-size: 22px;
+    background: transparent;
+    width: 45%;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 15%;
+    margin-top: 5%;
+    cursor: default;
+}
+hr.design{
+    margin-left: 25%;
+    border-radius: 35%;
+    background: red;
+    width: 256px;
+    height: 8px;
+}
+.page2{
+    margin-left: 5%;
+    margin-top: 3%;
+}
+.bizhead{
+        font-size: 22px;
+        background: transparent;
+        width: 45%;
+        text-align: center;
+        padding: 5px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-left: 15%;
+        margin-top: 5%;
+        cursor: default;
+   
+}
+.companyimage{
+    width: 65%; 
+    height: 400px;
+    font-size: 22px;
+    background: transparent;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 15%;
+    margin-top: 5%;
+    cursor: default;
+    border: solid 1px black;
+    border-radius: 10%;
+}
+.spaceme{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 3%;
+    text-decoration: underline;
+}
+.whyphones{
+    background: blanchedalmond;
+    padding: 5%;
+    margin-left: 2%;
+    margin-top: 2%;
+    cursor: default;
+    border-radius: 15%;
+    margin-right: 5%;
+}
+.whyphones p{
+    margin: 10px;
+    font-size: 22px;
+}
+.origin{
+    
+    background: blanchedalmond;
+    padding: 5%;
+    margin-left: 2%;
+    margin-top: 2%;
+    cursor: default;
+    border-radius: 15%;
+    margin-right: 5%;   
+}
+.origin p{
+    margin: 10px;
+    font-size: 22px;
+}
+.realfooter{
+    margin-right: 0;
+    text-align: center;
+    justify-content: center;
+    border-radius: 20px;
+    background: gray;
+    height: 400px;
+    width: 100%;
+   
+   display: inline-block;
+   position: static;
+    margin: 0;
+    margin-top: 15px;
+}
+.myfooter .aboutcompany a{
+    text-decoration: none;
+    display: block;
+    color:  rgb(0, 0, 0);
+    font-family: cursive;
+    margin: 7px;
+    margin-left: 0px;
+}
+.myfooter .aboutcompany a:hover{
+    text-decoration: underline;
+    
+}
+.myfooter .aboutcompany a:active{
+    text-decoration: underline;
+    letter-spacing: 3px;
+    color: blue;
+}
+.myfooter .aboutcompany p{
+    text-decoration: none;
+    display: block;
+    color:  rgb(0, 0, 0);
+    font-family: cursive;
+    
+    margin-left: 20px;
+}
+.aboutcompany{
+    border-radius: 10px;
+    padding: 2%;
+    
+    color: rgb(4, 4, 4);
+    font-size: 18px;
+    
+    width: 43%;
+    display: inline-block;
+}
+
+
+.aboutcompany h4{
+    font-size: 27px;
+    color: rgb(59, 35, 35);
+}
+.aboutcompany:last-child{
+    padding-left: 40px;
+}
+.links{
+    margin-top: 25px;
+}
+.links a{
+    background: none;
+    margin-left: 10px;
+    margin-bottom: 17px;
+    border-bottom: 2px solid red;
+    display: inline-block;
+    padding: 10px;
+    }
+.links a i{
+    color: #fff;
+    font-size: 40px;
+    margin: 10px;
+
+}
+.links a i:hover{
+   
+    color: rgb(80, 80, 199);
+}
+.links a i:active{
+   
+    color: rgb(80, 80, 199);
+}
+.links a:hover{
+    border-bottom: solid 1px rgb(0, 0, 0);
+}
+.links a:active{
+    border-bottom: solid 1px rgb(0, 0, 0);
+}
+.location{
+    background: transparent;
+   padding-left: 0px;
+   max-width: 1000px;
+   border-right: solid 2px black;
+   border-left: solid 2px black;
+   align-items: center;
+   border-radius: 20px;
+   margin-bottom: 50px;
+}
+.mymenu{
+   
+    background: transparent;
+    position: fixed;
+    display: flex;
+   right: 0;
+   border: none;
+   color: #4f4e4e;
+   margin-top: 2px;
+   width: 40px;
+   font-size: 32px;
+}
+.side{
+   z-index: 1;
+    position: fixed;
+    border-radius: 5px;
+    margin-left: 0;
+    left: -100%;
+    padding-top: 10px;
+    width: 100%;
+    height: 250px;
+    top: 0;
+    background: rgb(14, 21, 59);
+}
+.open{
+    left: 0;
+    transition: all 0.5s ease-in-out;
+}
+.side a{
+    text-decoration: none;
+    color: rgb(166, 141, 141);
+    font-size: 22px;
+    display: block;
+    margin: 40px;
+    margin-top: 20px;
+}
+.side a:hover{
+    color: #fff;
+    border-bottom: solid 1px white;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+}
+
+.close{
+    position: absolute;
+    background: transparent;
+    margin-top: 2px;
+    border: none;
+    font-size: 32px;
+    color: #fff;
+}
